@@ -32,6 +32,8 @@ Create a **`Dockerfile`** in the root directory of the project with the followin
 ### **Step 2: Build the Docker image**
 ```
 docker build -t <image_name> .
+
+the RUN chown -R flask:flask /app will take some time to run.
 ```
 
 ### **Step 3: Run the Docker container**
