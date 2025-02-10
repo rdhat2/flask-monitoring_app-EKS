@@ -27,13 +27,12 @@ This will start the Flask server on **`localhost:5000`**. Navigate to [http://lo
 
 ### **Step 1: Create a Dockerfile**
 
-Create a **`Dockerfile`** in the root directory of the project with the following contents:
+Create a **`Dockerfile`** in the root directory of the project.
 
 ### **Step 2: Build the Docker image**
 ```
 docker build -t <image_name> .
 
-the RUN chown -R flask:flask /app will take some time to run.
 ```
 
 ### **Step 3: Run the Docker container**
